@@ -28,11 +28,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav_links {
+  background-color: #ffffff;
+  color:  red;
+  font-family: Tahoma;
+  font-size:  .7em;
+  padding: 1em;
 }
+#nav_links li {
+  list-style-type: none;
+  display: inline-block;
+}
+#nav_links li a {
+  border-left: 1em;
+  border-right: 1em;
+  font-weight: bold;
+  padding: .5em;
+  text-decoration: none;
+}
+#nav_links li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* vim: et ts=2 sw=2
+ */
