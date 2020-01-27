@@ -3,7 +3,8 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 //import { BrowserRouter, Router, Link, Route } from 'react-router-dom';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+//import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { HashRouter, Link, Route } from 'react-router-dom';
 import AboutPage from './AboutPage.js';
 import HomePage from './HomePage.js';
 import LoginPage from './LoginPage.js';
@@ -50,9 +51,9 @@ const BaseLayout = () => (
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <BaseLayout />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
